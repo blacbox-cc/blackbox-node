@@ -1,0 +1,14 @@
+node:
+  id: "blackbox-node-01"
+  version: "0.1.0-alpha"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
+monitoring:
+  cpu_interval: 1.0
+  ram_interval: 2.0
+
+health:
+  heartbeat_interval: 5
